@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  position: absolute;
+}
+
+main {
+  margin-left: 55px;
+}
+h1 {
+  font-weight: bold;
+}
+
+/* <!-- *** COMEÇO HEADER ***  --> */
+
+header {
+  width: 600px;
+  height: 140px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* box-shadow: 0 0 1em #999; */
+  background-color: #ece2d6;
+  color: #fff;
+}
+
+.header-left {
+  display: flex;
+}
+.logo {
+  margin-top: 50px;
+  width: 180px;
+  height: 70px;
+  margin-left: 20px;
+  margin-bottom: 37px;
+}
+
+.zebra {
+  position: relative;
+  margin-left: -250px;
+  opacity: 0.1;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.header-dots {
+  height: 26px;
+  width: 38px;
+  margin-left: 0px;
+  margin-top: 125px;
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.arrows {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-left: 45%;
+  align-items: center;
+  margin-top: -90px;
+}
+.arrows img {
+  width: 24px;
+  height: 24px;
+}
+
+.header-girl {
+  position: absolute;
+  margin-top: 130px;
+  margin-left: 45%;
+  z-index: 0;
+}
+
+.header-girl img {
+  width: 130px;
+  height: 150px;
+}
+
+.header-right {
+  margin-right: 40px;
+  text-align: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.header-right .triangle {
+  width: 21px;
+  height: 21px;
+}
+
+.header-right h6,
+h4 {
+  font-weight: 600;
+}
+
+.header-right h6 {
+  padding: 5px;
+}
+
+.triangle {
+  margin-right: -15px;
+  margin-top: 20px;
+  transform: rotate(-10deg);
+  filter: invert(100%);
+  -webkit-filter: invert(100%);
+}
+
+.header-right .zig-zag img {
+  width: 788px;
+  height: 8px;
+  margin-bottom: 20px;
+}
+
+/* <!-- *** FIM HEADER ***  --> */
+
+/******************************* */
+/******************************* */
+
+/* <!-- *** COMEÇO BODY ***  --> */
+
+.main-article {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.chamada-principal {
+  margin-top: -15px;
+}
+.main-article h6 {
+  margin-top: 5px;
+  padding-bottom: 5px;
+  font-style: italic;
+  font-weight: 100;
+  color: rgba(0, 0, 0, 0.466);
+}
+
+.sub-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* no .psd as imagens não tem o mesmo tamanho. uma está maior. tomei a liberdade de deixar as duas 
+equidistantes e do mesmo tamanho */
+.sub-container img {
+  width: 250px;
+  height: 190px;
+}
+
+.nrf-vision {
+  z-index: 1;
+}
+
+.bar-nrf {
+  background-image: linear-gradient(to right, #e5255a, #6b5ba3);
+  height: 4px;
+  width: 250px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.bar-nba {
+  background-image: linear-gradient(to right, #75c5cf, #675ea5);
+  height: 4px;
+  width: 155px;
+  /* colocar as cores das bars;
+    arrummar as imagens (pegar outra do kobe)
+    dar o espaçamento entre as imagens */
+}
+
+.bar-wpp {
+  background-image: linear-gradient(to right, #75c5cf, #38b388);
+  height: 4px;
+  width: 155px;
+}
+
+.signature-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fc4c02;
+  height: 80px;
+  margin-top: 18px;
+}
+
+/* <!-- *** FIM BODY ***  --> */
+
+/* <!-- *** COMEÇO FOOTER ***  --> */
+footer {
+  font-size: 0.8rem;
+  text-align: center;
+  margin: 15px;
+}
+
+footer h5 {
+  display: inline-block;
+}
+
+footer a {
+  display: inline; /* Set the anchor tag to behave as an inline element */
+  text-decoration: underline;
+  white-space: nowrap; /* Prevent the link from breaking into a new line */
+}
+
+/* <!-- *** FIM FOOTER ***  --> */
